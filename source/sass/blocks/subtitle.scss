@@ -1,0 +1,21 @@
+.subtitle {
+  margin: 0 0 30px;
+
+  font-size: 24px;
+  line-height: 36px;
+
+  b {
+    color: $orange;
+  }
+
+  @media (max-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+}

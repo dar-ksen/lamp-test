@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "SFUIDisplay";
+  font-weight: 500;
+  font-style: normal;
+
+  font-display: swap;
+  src:
+    local("SFUIDisplay"),
+    url("../fonts/SFUIDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/SFUIDisplay-Medium.woff") format("woff");
+}
