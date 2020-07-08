@@ -1,10 +1,12 @@
 .header {
   position: relative;
+
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+
   padding-top: 40px;
   padding-bottom: 0;
-  flex-wrap: wrap;
 }
 
 .header__logo {
@@ -12,14 +14,18 @@
 }
 
 .header__phone {
-  padding-top: 10px;
   align-self: flex-start;
-  font-weight: 700;
-  color: $black;
+
+  padding-top: 10px;
   padding-left: 25px;
 
+  color: $black;
+
+  font-weight: 700;
+
   @media (max-width: $mobile-width) {
-    padding: 0;
     align-self: center;
+
+    padding: 0;
   }
 }

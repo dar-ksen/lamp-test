@@ -1,9 +1,10 @@
 .promo {
-  background: url("../img/promo-bg@1x.png") no-repeat;
-  background-size: 52.5vw auto;
-  background-position: right calc(10% - 52px) center;
   padding-top: 65px;
   padding-bottom: 150px;
+
+  background: url("../img/promo-bg@1x.png") no-repeat;
+  background-position: right calc(10% - 52px) center;
+  background-size: 52.5vw auto;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/promo-bg@2x.png");
@@ -12,12 +13,14 @@
   @media (max-width: $tablet-width) {
     padding-top: 30px;
     padding-bottom: 20px;
+
     background-position: right calc(10% - 52px) bottom;
   }
 
   @media (max-width: $mobile-width) {
     padding-top: 30px;
     padding-bottom: 250px;
+
     background-position: center bottom;
     background-size: 360px;
   }
@@ -29,8 +32,8 @@
 }
 
 .promo__subtitle {
-  margin-bottom: 40px;
   max-width: 330px;
+  margin-bottom: 40px;
 
   @media (max-width: $mobile-width) {
     max-width: none;
@@ -40,6 +43,7 @@
 
 .promo__form {
   display: flex;
+
   max-width: 390px;
 
   input[type="tel"],

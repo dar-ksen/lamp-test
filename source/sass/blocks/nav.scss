@@ -2,7 +2,6 @@
 .nav {
   flex-grow: 1;
   max-width: 772px;
-  margin-right: 25px;
 
   @media (max-width: $tablet-width) {
     order: 2;
